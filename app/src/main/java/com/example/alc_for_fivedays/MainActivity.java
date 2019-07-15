@@ -24,17 +24,30 @@ public class MainActivity extends AppCompatActivity {
             roll();
             }
         });
+
+        View button1 = findViewById(R.id.button3);
+        button1.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                showAbout();
+            }
+        });
+    }
+    private void showAbout(){
+        Intent intent = new Intent(this, About_alc.class);
+        startActivity(intent);
     }
     private void roll(){
     Intent intent = new Intent(this, Main2Activity.class);
     startActivity(intent);
     }
-    public void openAboutActivity(View view){
-        String url = "https://andela.com/alc/";
-        CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
-        CustomTabsIntent customTabsIntent = builder.build();
-        customTabsIntent.launchUrl(this, Uri.parse(url));
-    }
+//    public void openAboutActivity(View view){
+//        String url = "https://andela.com/alc/";
+//        CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
+//        CustomTabsIntent customTabsIntent = builder.build();
+//        customTabsIntent.launchUrl(this, Uri.parse(url));
+//    }
 
 
 }

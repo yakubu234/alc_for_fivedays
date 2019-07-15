@@ -42,8 +42,7 @@
             android:layout_width="210dp"
             android:layout_height="68dp"
             android:layout_gravity="center"
-            android:text="@string/about_andela"
-            android:onClick="openAboutActivity" />
+            android:text="@string/about_andela"/>
 
         <TextView
             android:id="@+id/textView5"
