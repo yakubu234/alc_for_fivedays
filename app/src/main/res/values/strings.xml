@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">alc_for_fivedays</string>
+    <string name="andela_logo">andela logo</string>
+    <string name="welcome_to_alc_4_0">WELCOME TO ALC 4.0</string>
+    <string name="textview">TextView</string>
+    <string name="about_andela">About Andela</string>
+    <string name="my_profile">My Profile</string>
+    <string name="Thank_you_Andela_For_this_Greate_Oppourtunity">Thank you Andela For this Greate Oppourtunity</string>
+    <string name="thank_you_andela_for_this_greate_oppourtunity">Thank you Andela for this Greate Oppourtunity</string>
+    <string name="welcome_to_alc_4_01">Welcome to ALC 4.0</string>
+    <string name="logo">TODO</string>
+    <string name="my_profille_pic">TODO</string>
+    <string name="yakubu_abiola">Yakubu Abiola</string>
+    <string name="track_android">Track : Android</string>
+    <string name="country_nigeria">Country : Nigeria</string>
+    <string name="email_yakubuabiola2003_gmail_com">Email : Yakubuabiola2003@gmail.com</string>
+    <string name="phone_2348030960928">Phone : 2348030960928</string>
+    <string name="slack_username_yakubuabiola">Slack Username : @yakubuabiola</string>
+    <string name="thank_you_andela_for_this_great_oppourtunity">Thank you Andela for this great Oppourtunity</string>
+</resources>
