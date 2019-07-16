@@ -19,12 +19,13 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="333dp"
-            android:layout_height="181dp"
+            android:layout_width="154dp"
+            android:layout_height="170dp"
             android:layout_gravity="center"
             android:contentDescription="@string/my_profille_pic"
             android:foregroundGravity="center"
-            app:srcCompat="@drawable/abioola" />
+            app:srcCompat="@drawable/abioola"
+            />
 
         <TextView
             android:id="@+id/textView2"

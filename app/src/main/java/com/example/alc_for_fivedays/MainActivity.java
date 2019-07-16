@@ -8,9 +8,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private static Button button_show;
+    private long backPressedTime;
+    private Toast backToast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +44,20 @@ public class MainActivity extends AppCompatActivity {
     private void roll(){
     Intent intent = new Intent(this, Main2Activity.class);
     startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        if (backPressedTime + 2000 > System.currentTimeMillis()) {
+            backToast.cancel();
+            super.onBackPressed();
+            return;
+        }else{
+            backToast = Toast.makeText(getBaseContext(), "double click to exit", Toast.LENGTH_SHORT );
+            backToast.show();
+        }
+        backPressedTime = System.currentTimeMillis();
     }
 //    public void openAboutActivity(View view){
 //        String url = "https://andela.com/alc/";

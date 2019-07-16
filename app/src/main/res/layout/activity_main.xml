@@ -39,10 +39,13 @@
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="210dp"
-            android:layout_height="68dp"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/about_andela"/>
+            android:layout_marginTop="55dp"
+            android:background="@drawable/button"
+            android:text="@string/about_andela"
+            android:textSize="16dp"/>
 
         <TextView
             android:id="@+id/textView5"
@@ -51,11 +54,13 @@
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="215dp"
-            android:layout_height="63dp"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button"
             android:text="@string/my_profile"
-             />
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/textView6"
@@ -68,7 +73,7 @@
             android:layout_height="72dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="@string/thank_you_andela_for_this_great_oppourtunity"
+            android:text="@string/thank_you_andela_for_this_great_opportunity"
             android:textSize="20sp" />
     </LinearLayout>
 
